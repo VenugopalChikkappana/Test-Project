@@ -1,0 +1,11 @@
+{
+  "name": "CADS GmbH",
+  "address": {
+    "street": "Technologiepark",
+    "number": "17",
+    "plz": "4320",
+    "city": "Perg"
+  },
+  "email": "office@cads.at",
+  "phone": "+43 7262 20567"
+}

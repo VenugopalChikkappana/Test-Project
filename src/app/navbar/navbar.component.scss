@@ -1,0 +1,31 @@
+@import '../../styles/colors';
+
+.navbar {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    margin-top: 6px;
+
+    @media only screen and (min-width: 768px) { 
+      padding: 12px 40px;
+    }
+
+    &-arrowicon {
+        width: auto;
+        height: 20px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    &-link {
+      &:link,
+      &:visited {
+        text-decoration: none;
+        color: $darkred;
+        font-weight: bold;
+      }
+    }
+}

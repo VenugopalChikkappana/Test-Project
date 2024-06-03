@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import 'styles/colors';
+
+html, body { height: 100%; }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Light.woff2') format('woff2'),
+        url('./assets/fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('./assets/fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body { 
+       margin: 0; 
+       font-family: 'Roboto', sans-serif; 
+}
+
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    @media only screen and (min-width: 768px) { 
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+
+
+
+
+

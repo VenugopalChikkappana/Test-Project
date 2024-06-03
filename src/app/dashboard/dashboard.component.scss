@@ -1,0 +1,163 @@
+@import '../../styles/colors';
+
+.dashboard {
+  background-color: $lightgrey;
+
+  &-usericon, &-cadsicon {
+    margin-right: 10px;
+  }
+
+  &-container {
+    padding: 10px 0 6px;
+    flex-direction: column!important;
+
+    @media only screen and (min-width: 992px) { 
+        flex-direction: row!important;
+    }
+  }
+
+  &-leftblock {
+    gap: 8px;
+    
+    @media only screen and (max-width: 992px) { 
+      margin-right: 0!important;
+      margin-bottom: 8px;
+    }
+
+    @media only screen and (min-width: 992px) { 
+      width: 40%;
+    }
+
+    @media only screen and (min-width: 1200px) { 
+      width: 35%;
+      }
+
+      @media only screen and (min-width: 1600px) { 
+      width: 30%;
+      }
+  }
+
+  &-rightblock {
+    width: 100%;
+
+    @media only screen and (min-width: 992px) { 
+      width: 60%;
+      }
+
+      @media only screen and (min-width: 1200px) { 
+      width: 65%;
+      }
+
+      @media only screen and (min-width: 1600px) { 
+      width: 70%;
+      }
+  }
+
+  &-personitem {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  &-personlabel {
+    min-width: 160px;
+    font-weight: bold;
+
+    @media only screen and (min-width: 1200px) { 
+      min-width: 180px;
+    }
+  }
+
+  &-personvalue {
+    hyphens: auto;
+  }
+
+  &-cadsitem {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  &-cadslabel {
+    min-width: 160px;
+    font-weight: bold;
+
+    @media only screen and (min-width: 1200px) { 
+      min-width: 170px;
+    }
+  }
+
+  &-cadsvalue {
+    hyphens: auto;
+  }
+
+  &-personcard, &-cadscard {
+    flex: 1;
+  }
+  
+  mat-card {
+    margin-bottom: 20px;
+    margin-bottom: 0!important;
+    border-radius: 0;
+
+    mat-card-title {
+      padding: 16px;
+      display: flex;
+      align-items: start;
+    }
+  }
+
+  &-weblisticon {
+    position: relative;
+    top: 7px;
+  }
+
+  &-headlinewrapper {
+    margin-bottom: 20px;
+  }
+
+  &-headlineicon {
+    width: auto;
+    height: 34px;
+    margin-right: 10px;
+  }
+
+  &-tablewrapper {
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: $white;
+    padding: 36px 16px 0 16px;
+
+    @media (max-width: 600px) { 
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    @media only screen and (min-width: 768px) { 
+      height: calc(100vh - 244px);
+    }
+
+    .mat-mdc-table {
+      width: 100%;
+      box-shadow: none;
+
+      .mat-mdc-header-cell, .mat-mdc-cell {
+        white-space: nowrap;
+      }
+
+      .mat-mdc-header-cell {
+        text-transform: uppercase;
+        color: $grey;
+        font-size: 12px;
+        font-weight: 300;
+      }
+
+      @media (max-width: 600px) { 
+        min-width: 600px; 
+      }
+    } 
+  }   
+}
+
+
+
+
+

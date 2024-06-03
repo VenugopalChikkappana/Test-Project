@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Produkt A",
+    "materialNumber": "M12345",
+    "gtinNumber": "GTIN123",
+    "batchNumber": "BATCH001",
+    "stock": 100,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 2,
+    "name": "Produkt B",
+    "materialNumber": "M67890",
+    "gtinNumber": "GTIN456",
+    "batchNumber": "BATCH002",
+    "stock": 150,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 3,
+    "name": "Produkt C",
+    "materialNumber": "M54321",
+    "gtinNumber": "GTIN789",
+    "batchNumber": "BATCH003",
+    "stock": 200,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 4,
+    "name": "Produkt D",
+    "materialNumber": "M98765",
+    "gtinNumber": "GTIN012",
+    "batchNumber": "BATCH004",
+    "stock": 120,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 5,
+    "name": "Produkt E",
+    "materialNumber": "M13579",
+    "gtinNumber": "GTIN345",
+    "batchNumber": "BATCH005",
+    "stock": 90,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 6,
+    "name": "Produkt F",
+    "materialNumber": "M24680",
+    "gtinNumber": "GTIN678",
+    "batchNumber": "BATCH006",
+    "stock": 180,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 7,
+    "name": "Produkt G",
+    "materialNumber": "M35791",
+    "gtinNumber": "GTIN901",
+    "batchNumber": "BATCH007",
+    "stock": 70,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 8,
+    "name": "Produkt H",
+    "materialNumber": "M46802",
+    "gtinNumber": "GTIN234",
+    "batchNumber": "BATCH008",
+    "stock": 250,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 9,
+    "name": "Produkt I",
+    "materialNumber": "M57913",
+    "gtinNumber": "GTIN567",
+    "batchNumber": "BATCH009",
+    "stock": 110,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 10,
+    "name": "Produkt J",
+    "materialNumber": "M68024",
+    "gtinNumber": "GTIN890",
+    "batchNumber": "BATCH010",
+    "stock": 130,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 11,
+    "name": "Produkt K",
+    "materialNumber": "M79135",
+    "gtinNumber": "GTIN123",
+    "batchNumber": "BATCH011",
+    "stock": 160,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 12,
+    "name": "Produkt L",
+    "materialNumber": "M80246",
+    "gtinNumber": "GTIN456",
+    "batchNumber": "BATCH012",
+    "stock": 220,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 13,
+    "name": "Produkt M",
+    "materialNumber": "M91357",
+    "gtinNumber": "GTIN789",
+    "batchNumber": "BATCH013",
+    "stock": 95,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 14,
+    "name": "Produkt N",
+    "materialNumber": "M02468",
+    "gtinNumber": "GTIN012",
+    "batchNumber": "BATCH014",
+    "stock": 180,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 15,
+    "name": "Produkt O",
+    "materialNumber": "M13579",
+    "gtinNumber": "GTIN345",
+    "batchNumber": "BATCH015",
+    "stock": 70,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 16,
+    "name": "Produkt P",
+    "materialNumber": "M24680",
+    "gtinNumber": "GTIN678",
+    "batchNumber": "BATCH016",
+    "stock": 200,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 17,
+    "name": "Produkt Q",
+    "materialNumber": "M35791",
+    "gtinNumber": "GTIN901",
+    "batchNumber": "BATCH017",
+    "stock": 120,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 18,
+    "name": "Produkt R",
+    "materialNumber": "M46802",
+    "gtinNumber": "GTIN234",
+    "batchNumber": "BATCH018",
+    "stock": 90,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 19,
+    "name": "Produkt S",
+    "materialNumber": "M57913",
+    "gtinNumber": "GTIN567",
+    "batchNumber": "BATCH019",
+    "stock": 140,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 20,
+    "name": "Produkt T",
+    "materialNumber": "M68024",
+    "gtinNumber": "GTIN890",
+    "batchNumber": "BATCH020",
+    "stock": 180,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 21,
+    "name": "Produkt U",
+    "materialNumber": "M79135",
+    "gtinNumber": "GTIN123",
+    "batchNumber": "BATCH021",
+    "stock": 200,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 22,
+    "name": "Produkt V",
+    "materialNumber": "M80246",
+    "gtinNumber": "GTIN456",
+    "batchNumber": "BATCH022",
+    "stock": 250,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 23,
+    "name": "Produkt W",
+    "materialNumber": "M91357",
+    "gtinNumber": "GTIN789",
+    "batchNumber": "BATCH023",
+    "stock": 100,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 24,
+    "name": "Produkt X",
+    "materialNumber": "M02468",
+    "gtinNumber": "GTIN012",
+    "batchNumber": "BATCH024",
+    "stock": 160,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 25,
+    "name": "Produkt Y",
+    "materialNumber": "M13579",
+    "gtinNumber": "GTIN345",
+    "batchNumber": "BATCH025",
+    "stock": 130,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 26,
+    "name": "Produkt Z",
+    "materialNumber": "M24680",
+    "gtinNumber": "GTIN678",
+    "batchNumber": "BATCH026",
+    "stock": 190,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 27,
+    "name": "Produkt AA",
+    "materialNumber": "M35791",
+    "gtinNumber": "GTIN901",
+    "batchNumber": "BATCH027",
+    "stock": 80,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 28,
+    "name": "Produkt AB",
+    "materialNumber": "M46802",
+    "gtinNumber": "GTIN234",
+    "batchNumber": "BATCH028",
+    "stock": 210,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 29,
+    "name": "Produkt AC",
+    "materialNumber": "M57913",
+    "gtinNumber": "GTIN567",
+    "batchNumber": "BATCH029",
+    "stock": 150,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 30,
+    "name": "Produkt AD",
+    "materialNumber": "M68024",
+    "gtinNumber": "GTIN890",
+    "batchNumber": "BATCH030",
+    "stock": 100,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 31,
+    "name": "Produkt AE",
+    "materialNumber": "M79135",
+    "gtinNumber": "GTIN123",
+    "batchNumber": "BATCH031",
+    "stock": 230,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 32,
+    "name": "Produkt AF",
+    "materialNumber": "M80246",
+    "gtinNumber": "GTIN456",
+    "batchNumber": "BATCH032",
+    "stock": 120,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 33,
+    "name": "Produkt AG",
+    "materialNumber": "M91357",
+    "gtinNumber": "GTIN789",
+    "batchNumber": "BATCH033",
+    "stock": 190,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 34,
+    "name": "Produkt AH",
+    "materialNumber": "M02468",
+    "gtinNumber": "GTIN012",
+    "batchNumber": "BATCH034",
+    "stock": 80,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 35,
+    "name": "Produkt AI",
+    "materialNumber": "M13579",
+    "gtinNumber": "GTIN345",
+    "batchNumber": "BATCH035",
+    "stock": 170,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 36,
+    "name": "Produkt AJ",
+    "materialNumber": "M24680",
+    "gtinNumber": "GTIN678",
+    "batchNumber": "BATCH036",
+    "stock": 110,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 37,
+    "name": "Produkt AK",
+    "materialNumber": "M35791",
+    "gtinNumber": "GTIN901",
+    "batchNumber": "BATCH037",
+    "stock": 140,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 38,
+    "name": "Produkt AL",
+    "materialNumber": "M46802",
+    "gtinNumber": "GTIN234",
+    "batchNumber": "BATCH038",
+    "stock": 200,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 39,
+    "name": "Produkt AM",
+    "materialNumber": "M57913",
+    "gtinNumber": "GTIN567",
+    "batchNumber": "BATCH039",
+    "stock": 90,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  },
+  {
+    "id": 40,
+    "name": "Produkt AN",
+    "materialNumber": "M68024",
+    "gtinNumber": "GTIN890",
+    "batchNumber": "BATCH040",
+    "stock": 180,
+    "expirationDate": "2024-01-01T13:22:48.3190414"
+  }
+]

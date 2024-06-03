@@ -1,0 +1,27 @@
+<div class="pagination">
+    <div fxLayout="row" fxLayoutAlign="center center" class="pagination-buttonwrapper">
+        <button mat-icon-button (click)="onPageChange(pageIndex - 1)" [disabled]="pageIndex === 0" class="pagination-arrow">
+            <img src="assets/image/icon_web_arrow_left.png" alt="ArrowLeft" class="pagination-arrowleft">
+        </button>
+    
+        <ng-container *ngFor="let page of pages; let i = index">
+            <button mat-button (click)="onPageChange(i)" [class.active]="pageIndex === i" class="pagination-button">{{ page }}</button>
+        </ng-container>
+    
+        <button mat-icon-button (click)="onPageChange(pageIndex + 1)" [disabled]="pageIndex >= totalPages - 1" class="pagination-arrow">
+            <img src="assets/image/icon_web_arrow_right.png" alt="ArrowRight" class="pagination-arrowright">
+        </button>
+    </div>
+  
+    <div fxLayout="row" fxLayoutAlign="center center" class="pagination-selectwrapper">
+        <p class="pagination-selecttext">Items per Page</p>
+        <mat-form-field class="pagination-formfield">
+            <mat-select [(value)]="pageSize" (selectionChange)="onPageSizeChange($event.value)">
+              <mat-option *ngFor="let option of pageSizeOptions" [value]="option">
+                {{ option }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    
+  </div>

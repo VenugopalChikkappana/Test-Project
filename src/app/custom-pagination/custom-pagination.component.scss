@@ -1,0 +1,98 @@
+@import '../../styles/colors';
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px 16px;
+    background-color: $white;
+    gap: 8px;
+
+    @media only screen and (min-width: 992px) { 
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    &-buttonwrapper {
+        @media only screen and (min-width: 992px) { 
+            flex-grow: 1;
+            display: flex;
+            justify-content: center
+        }
+
+        @media only screen and (min-width: 1400px) { 
+            margin-left: 145px;
+        }
+    }
+
+    &-button {
+        height: 36px!important;
+        min-width: 36px!important;
+        border-radius: 50%!important;
+        background-color: $lightgrey!important;
+
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+        
+        &.active {
+            font-weight: bold!important;
+            color: $darkred!important;
+        }
+    }
+
+    &-selecttext {
+        margin-bottom: 0!important;
+        margin-right: 10px!important;
+        font-weight: bold;
+    }
+
+    &-formfield {
+        .mat-mdc-select-arrow {
+            display: none!important;
+        }
+        
+        .mat-mdc-select-arrow-wrapper {
+            width: 21px;
+        
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 16px; /* Adjust the width as needed */
+                height: 16px; /* Adjust the height as needed */
+                background-image: url('/assets/image/icon_web_arrow_down.png');
+                background-size: cover;
+                margin-left: 8px; /* Space between the image and the text */
+                vertical-align: middle;
+            }
+        }
+
+        .mat-mdc-select-panel {
+            min-width: 80px;
+        }
+        
+        .mdc-line-ripple::before, .mdc-line-ripple::after {
+            border: none!important;
+        }
+
+        .mat-mdc-form-field-infix {
+            width: 40px!important;
+            height: inherit;
+            padding: 5px 0!important;
+        }
+        
+        .mat-mdc-form-field-flex {
+            height: inherit;
+        }
+
+        .mat-mdc-text-field-wrapper {
+            background-color: #F1F1F1!important;
+            height: 32px!important;
+        }
+        
+        .mat-mdc-form-field-subscript-wrapper {
+            display: none!important;
+        }
+    }
+}
